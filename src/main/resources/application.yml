@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://happy:6qTCQErVPjJGk4K@cluster0.kouo1zf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: bookManagement
+
+jwt:
+  secret: s3cr3t
+  expiration: 86400 # 1 day in seconds
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+#username: happy
+#password: 6qTCQErVPjJGk4K
